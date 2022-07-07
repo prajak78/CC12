@@ -1,4 +1,37 @@
-.App {
+body{
+  margin: 0 auto;
+  font-family: 'Courier New', Courier, monospace;
+  max-width: 1000px;
+  background-color: aquamarine;
+}
+
+nav{
+  background-color: blue;
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px 0;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  background-color:  blueviolet;
+  margin: 0px;
+}
+
+nav li {
+  padding: 5px;
+}
+
+nav a{
+  color: white;
+  padding: 5px;
+}
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +68,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
